@@ -1,0 +1,13 @@
+name: use step
+
+on: push
+jobs:
+    use_step:
+        runs-on: ubuntu-latest
+        steps:
+           - name: Use Step
+             uses: actions/checkout@v2
+        steps:
+            - name: list files
+              run: ls 
+
