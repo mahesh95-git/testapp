@@ -1,0 +1,11 @@
+name: Hello Mahesh
+
+on: push
+
+jobs:
+    hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Say Hello to Mahesh
+              run: echo "Hello, Mahesh!"
+            
