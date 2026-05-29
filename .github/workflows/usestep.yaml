@@ -8,4 +8,5 @@ jobs:
            - name: Use Step
              uses: actions/checkout@v2 
            - run: ls 
+           - run: cat index.html
 
